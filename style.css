@@ -1,0 +1,152 @@
+html, body {
+    min-width: 290px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color: #0f0f0f;
+    background: #f0f0f0;
+    margin:0;
+    padding:0;
+}
+
+header {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+#navbar {
+    background: #e7e7e7; 
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+}
+
+#navbar header {
+    font-size: 2rem;
+    background: #dddddd;
+    padding:1rem 0.5rem 1rem 2rem;
+}
+
+#navbar ul {
+    padding: 0 0.5rem 0 2rem;
+    height: 10rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.nav-list {
+    list-style: none;
+    line-height: 1.1;
+    padding: 0.5rem 0;
+}
+
+#content {
+    color: #0f0f0f;
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #30839f;
+}
+
+#main-doc {
+    padding: 13rem 0 0 2rem;
+}
+
+.main-section {
+    padding: 2rem 0;
+    max-width: 80%;
+}
+
+#transparent {
+    font-size:0;
+    color: transparent;
+}
+
+.orange {
+    background: #fadcc3;
+    padding: 0.5rem;
+    border-left: solid #eeac40 4px;
+}
+
+.orange li {
+    list-style: none;
+}
+
+.yellow {
+    background: #f6e09d;
+    padding: 0.5rem;
+    border-left: solid #f0b557 4px;
+}
+
+.black {
+    background: #000000;
+    color: #ffffff;
+    font-size: 1.4rem;
+    padding-left: 3rem;
+}
+
+code {
+    background: #d3d3d3;
+}
+
+.grey {
+    background: #d3d3d3;
+    padding: 0.5rem;
+    border-left: solid #276b80 4px; 
+}
+
+img {
+    max-width: 40%;
+}
+
+#desktop, #font-desktop {
+    max-width: 100%;
+}
+
+hr {
+    border: solid 2px #399cbd;
+}
+
+@media only screen and (min-width: 850px) {
+    #navbar {
+        width: 25%;
+        float: left;    
+    }
+    
+    #main-doc {
+        width: 72%;
+        float: right;    
+    }
+    
+    #navbar header {
+        display: none;
+    }
+    
+    #navbar {
+        margin-top:5rem;
+        height: 100%;  
+    }
+    
+    #regular-title {
+        font-size: 2rem;
+        background: #dddddd;
+        padding:1rem;
+        position: fixed;
+        top: 0;
+        left:0;
+        right:0;
+        padding-left: 28%;
+    }
+    
+    #navbar ul {
+        height: 27rem;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    
+    #main-doc {
+        padding: 5rem 0 0 2rem;
+    }
+}
